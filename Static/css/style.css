@@ -1,0 +1,16 @@
+
+.main{
+    margin: 0 auto ;
+}
+.color1{
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(102, 102, 0);
+    color: black;
+}
+.color2{
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(251, 0, 0);
+
+}
