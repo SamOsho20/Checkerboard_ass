@@ -9,86 +9,20 @@
 
 <body>
     <table>
-        <tr class="main">
+        {% for x in range(num2):%}
+        <tr>
+            {% for i in range(num):%}
             <td class="color1"></td>
             <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
+            {%endfor%}
         </tr>
-        <tr class="main">
+        <tr>
+            {% for x in range(num):%}
             <td class="color2"></td>
             <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
+            {%endfor%}
         </tr>
-        <tr class="main">
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-        </tr>
-        <tr class="main">
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-        </tr>
-        <tr class="main">
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-        </tr>
-        <tr class="main">
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-        </tr>
-        <tr class="main">
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-        </tr>
-        <tr class="main">
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-        </tr>
+        {%endfor%}
     </table>
 </body>
 </html>
